@@ -72,3 +72,27 @@ th, td {
     padding: 5px;
     border: 1px solid black;
 }
+
+article:nth-of-type(1) section:nth-of-type(2) {
+    background-color: rgb(193, 250, 193);
+    margin-top: 20px;
+    padding: 10px;
+}
+
+article:nth-of-type(1) section:nth-of-type(2) h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: x-large;
+}
+
+article:nth-of-type(1) section:nth-of-type(3) {
+    background-color: rgb(255, 235, 122);
+    margin-top: 20px;
+    padding: 10px;
+}
+
+article:nth-of-type(1) section:nth-of-type(3) h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: x-large;
+}
