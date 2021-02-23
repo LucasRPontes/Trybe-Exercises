@@ -1,4 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: seashell;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
 ul:nth-last-of-type(1) li {
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 250px;
+    
+}
+
+ul:nth-of-type(1) li:nth-of-type(1){
+    margin-left: 15%;
+}
+
+#cabecalho {
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgb(182, 182, 221);
+    height: 100px;
+    line-height: 280%;
+    font-weight: bolder;
+}
+
+#nav {
+    height: 60px;
+    background-color: rgb(255, 139, 126);
+    line-height: 60px;
+
 }
