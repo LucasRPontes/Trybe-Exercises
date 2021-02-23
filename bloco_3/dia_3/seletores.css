@@ -2,7 +2,7 @@ h1, p {
     text-align: center;
 }
 
-ol:hover {
+ol li:hover {
     background-color: blueviolet;
 }
 
@@ -13,3 +13,5 @@ li:active {
 ul, ol {
     list-style: none;
 }
+
+
