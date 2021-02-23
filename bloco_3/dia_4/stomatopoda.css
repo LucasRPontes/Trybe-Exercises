@@ -1,0 +1,4 @@
+ul:nth-last-of-type(1) li {
+    display: inline-block;
+    margin-right: 50px;
+}
