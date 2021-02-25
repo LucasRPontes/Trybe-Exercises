@@ -82,3 +82,55 @@ switch (pecaXadrez.toLowerCase()) {
     default:
         console.log("Não existe essa peça fera");
     }
+
+7
+let nota = 77;
+
+if (nota > 100 || nota < 0) {
+    console.log("Erro");
+}  else if (nota >= 90) {
+    console.log("A");
+} else if (nota >= 80) {
+    console.log("B");
+} else if (nota >= 70) {
+    console.log("C");
+} else if (nota >= 60) {
+    console.log("D");
+} else if (nota >= 50) {
+    console.log("E");
+} else if (nota < 50 ) {
+    console.log("F");
+}
+
+8
+let num7 = 8;
+let num8 = 6;
+let num9 = 9;
+
+console.log(num7 % 2 == 0 || num8 % 2 == 0 || num9 % 2 == 0);
+
+9
+let num10 = 10;
+let num11 = 12;
+let num12 = 16;
+
+if (num10 % 2 != 0 || num11 % 2 != 0 || num12 % 2 != 0) {
+    console.log("True");
+} else {
+    console.log("False");
+}
+
+10
+let custo = 4237;
+let venda = 5678;
+let valorCustoTotal = (custo * 1.2);
+let lucro = (venda - valorCustoTotal);
+
+if (custo < 0 || venda < 0) {
+    console.log("Erro")
+} else {
+    console.log(lucro * 1000);
+}
+
+11
+let salarioBruto = 3500;
