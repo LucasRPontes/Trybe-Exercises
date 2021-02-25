@@ -1,3 +1,5 @@
+4.1
+
 1
 let a = 5;
 let b = 9;
@@ -43,3 +45,40 @@ if (num6 > 0) {
 }
 
 5
+let angulo1 = 35;
+let angulo2 = 37;
+let angulo3 = 110;
+
+console.log(angulo1 + angulo2 + angulo3 == 180);
+
+6
+let pecaXadrez = "RaiNHA";
+
+switch (pecaXadrez.toLowerCase()) {
+    case "cavalo":
+        console.log("Anda em movimento L");
+        break;
+
+    case "bispo":
+        console.log("Anda em diagonal");
+        break;
+        
+    case "torre":
+        console.log("Anda para frente ou para o lado");
+        break;
+
+    case "rainha":
+        console.log("Anda pra onde ela quiser");
+        break;
+
+    case "rei":
+        console.log("Anda uma casa para onde ele quiser");
+        break;
+
+    case "peao":
+        console.log("Anda para frente");
+        break;
+
+    default:
+        console.log("Não existe essa peça fera");
+    }
