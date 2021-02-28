@@ -43,15 +43,15 @@ let groceryList = ["Arroz", "Feijão", "Alface", "Melancia"];
   }
 
 
-1---------------------------------------------------------
+1
 
   let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
-  for (let i=0; i < numbers.length; i++) {
+  for (let i=0; i < numbers.length; i+=1) {
     console.log(numbers[i]);
   }
 
-2---------------------------------------------------------
+2
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let soma = 0;
 for (let i=0; i < numbers.length; i++) {
@@ -60,7 +60,7 @@ for (let i=0; i < numbers.length; i++) {
 
 console.log(soma);
 
-3---------------------------------------------------------
+3
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let soma = 0;
 
@@ -72,7 +72,7 @@ soma = (soma / numbers.length);
 
 console.log(soma);
 
-4-------------------------------------------------------------
+4
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let soma = 0;
 
@@ -88,7 +88,7 @@ if (soma > 20) {
   console.log("valor menor que 20")
 }
 
-5-------------------------------------------------------------
+5
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let higherNumber = 0;
 
@@ -100,7 +100,7 @@ for (let i = 0; i < numbers.length; i++) {
 
 console.log(higherNumber);
 
-6-------------------------------------------------------------
+6
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let numerosImpares = 0;
   for (let i=0; i < numbers.length; i++) {
@@ -117,15 +117,82 @@ let numerosImpares = 0;
 
   
 
-  7-------------------------------------------------------------
-  let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-  let menorNumero = 200;
-  for (let i=0; i < numbers.length; i++) {
-    if (numbers[i] < menorNumero){
-      menorNumero = numbers[i];
-    }
-  }
+7
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let menorNumero = 200;
+for (let i=0; i < numbers.length; i++) {
+if (numbers[i] < menorNumero){
+  menorNumero = numbers[i];
+}
+}
 
   console.log(menorNumero);
 
-  8-----------------------------------------------------------
+8
+let ate25 = [];
+
+for(let i = 1; i <= 25; i += 1) {
+ate25.push(i);
+}
+
+
+console.log(ate25);
+
+
+9
+let nome = [1,  2,  3,  4,  5,  6,  7,  8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25];
+let divisao = [];
+
+for(let index = 0; index < nome.length; index += 1) {
+  divisao.push(nome[index] / 2); 
+}
+
+
+console.log(divisao);
+
+
+
+Bonus
+
+
+let numeros = [45, 27, 57, 1330, 560, 800, 200, 70, 945, 54];
+
+for(let i = 1; i < numeros.length; i += 1) {
+  for(let j = 0; j < i; j += 1) {
+    if (numeros[i] < numeros[j]) {
+      let position = numeros[i];
+
+      numeros[i] = numeros[j];
+      numeros[j] = position;
+    }
+  }
+}
+
+
+console.log(numeros);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
