@@ -20,5 +20,9 @@ let naoUrgenteNaoImportanteH3 = document.querySelectorAll(".no-emergency-tasks h
 let naoUrgenteImportanteH3 = document.getElementsByTagName("h3")[3];
   naoUrgenteImportanteH3.style.backgroundColor = "black"; 
 
+
+function rodapezinho(){
 let rodape = document.getElementsByTagName("footer")[0];
   rodape.style.backgroundColor = "black";
+}
+rodapezinho();
