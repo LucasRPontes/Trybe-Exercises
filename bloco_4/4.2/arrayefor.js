@@ -36,9 +36,9 @@ menu.push('Contato');
 
 console.log(menu);
 
-
-let groceryList = ["Arroz", "Feijão", "Alface", "Melancia"];
-  for (let i=0; i < groceryList.length; i++) {
+//FOR AO CONTRARIO
+let groceryList = ["Arroz", "Feijão", "Alface", "Melancia", "Uva", "Caju"];
+  for (let i=groceryList.length - 1; i >= 0; i-= 1) {
     console.log(groceryList[i]);
   }
 

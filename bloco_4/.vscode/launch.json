@@ -11,16 +11,7 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/4.2/arrayefor.js"
+      "program": "${file}"
     },
-    {
-      "type": "node",
-      "request": "launch",
-      "name": "Executar Programa 2",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}/arquivoCodigo2.js"
-    }
   ]
 }
