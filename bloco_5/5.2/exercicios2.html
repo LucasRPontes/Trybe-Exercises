@@ -64,13 +64,13 @@
         h1.innerText = "Exercício 5.2";
       document.body.appendChild(h1);
       //2
-      let div = document.createElement("div");
-        div.className = "main-content";
-      document.body.appendChild(div);
+      let div1 = document.createElement("div");
+        div1.className = "main-content";
+      document.body.appendChild(div1);
       //3
       let div2 = document.createElement("div");
         div2.className = "center-content";
-      div.appendChild(div2);
+      div1.appendChild(div2);
       //4
       let p = document.createElement("p");
         p.innerText = "Texto qualquer bla bla bla bla bla bla";
@@ -78,11 +78,11 @@
       //5
       let div3 = document.createElement("div");
         div3.className = "left-content";
-      div.appendChild(div3);
+      div1.appendChild(div3);
       //6
       let div4 = document.createElement("div");
         div4.className = "right-content";
-      div.appendChild(div4);
+      div1.appendChild(div4);
       //7
       let imagem = document.createElement("img");
         imagem.src = "https://picsum.photos/200"
@@ -98,10 +98,23 @@
       //9
       for(let i = 0; i < 3; i += 1) {
         let h3 = document.createElement("h3");
-        div.appendChild(h3);
+        h3.innerText = "teste";
+        div1.appendChild(h3);
       }
-
+      //10
+      h1.className = "title";
+      //11
+      h3.className = "description";
+      //12
+      div1.removeChild(div3);
+      //13
+      
 
     </script>
   </body>
 </html>
+
+
+
+
+
