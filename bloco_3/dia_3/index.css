@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: deeppink;
+}
+
+
+
+.caixa {
+    color: white;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: top;
+  }
+
+  .width-and-height {
+    height: 50px;
+    width: 50px;
+    
+  }
+
+  .padding {
+    padding: 20px;
+  }
+
+  .margin {
+    margin: 50px;
+  }
+
+  .border {
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+  }
+
+  .teste1 {
+    font-size: large;
+     line-height: 1000%; 
+     text-align: center;
+     
+     
+  }
+
+
+  .teste2 {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       
+    }
+
+  .teste3 {
+    height: 200px;
+    background-color: chartreuse;
+    width: 200px;
+    display: inline-block;
+    margin-top: 50px;
+    
+    
+    
+  }
